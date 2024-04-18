@@ -32,15 +32,15 @@ git commit -m "コメント"　　例)git commit -m "Gitにファイルを登録
 ------------------------------------------------------------------------
 ファイル編集をして更新する場合
 
-7.ファイルをGitのインデックスに追加
+1.作成したフォルダに移動
+	cd フォルダ名　　例)cd sample
+
+2.ファイルをGitのインデックスに追加
 	git add ファイル名　　例)git add sample.txt
 	git add .　　←一括で登録する場合
 
-8.インデックスに追加されたファイルをGitコミットに登録
-git commit -m "コメント"　　例)git commit -m "Gitにファイルを登録しました"
-9.ローカルリポジトリで登録したファイルをリモートリポジトリに送信
-	git remote add origin https://github.com/ユーザーID/リポジトリ名
-	例)git remote add origin https://github.com/j9004pso/test_jenkins.git
+3.インデックスに追加されたファイルをGitコミットに登録
+git commit -m "コメント"　　例)git commit -m "Gitにファイルを登録しました
 
 10.更新内容の送信
 	git push origin main
